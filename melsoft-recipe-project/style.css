@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(30, 54%, 90%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px 0;
+    color:hsl(14, 45%, 36%) ;
+}
+
+ul li span,
+ol li span{
+    font-weight: bold;
+    font-size:  16px;
+}
+
+.container{
+    background-color: hsl(330, 100%, 98%);
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.intro,
+ .preparation,
+  .ingredients,
+  .instruction,
+  .instructions{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.intro-text{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+.intro-text p{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.preparation{
+background-color: hsl(332, 51%, 32%, 5%);
+padding: 10px;
+margin: 10px auto;
+}
+
+ul{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+li{
+    font-size: 12px;
+    margin: 10px;
+}
+
+.ingredients{
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.nutrition{
+    padding: 10px;
+    margin: 10px auto;
+}
+.nutrition h5{
+    margin-bottom: 10px;
+}
+.nutrition p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nutrition table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse:separate;
+}
+
+.nutrition table tr{
+    margin: 10px;
+    border: 1px solid black;
+}

@@ -1,3 +1,29 @@
 body{
-    font-family: "Agu Display", serif;;
+    font-family: "Agu Display", serif;
+}
+
+
+.navbar-fixed-top{
+    position: sticky;
+    top: 0;
+    inset: 0;
+}
+
+.container h1{
+    margin: 1rem;
+}
+
+.container p{
+    margin: 1rem;
+}
+
+.btn-primary{
+    font-family: "Agu Display", serif;
+    font-weight: 600;
+    letter-spacing: .24rem;
+    text-transform: uppercase;
+}
+
+.form-control{
+    margin: 1rem 0;
 }

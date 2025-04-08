@@ -13,61 +13,35 @@
 <body>
 
      <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Toggle button -->
-          <button
-            data-mdb-collapse-init
-            class="navbar-toggler"
-            type="button"
-            data-mdb-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Diamond Tech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           
-
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
-
-                <!-- Left links -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>
-                </ul>
-                <!-- Left links -->
-           
-        
-          </div>
-          <!-- Collapsible wrapper -->
-            <!-- Navbar brand -->
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                height="15"
-                alt="logo"
-                loading="lazy"
-              />
-            </a>
-
          
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price-section">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+           
+            
+          </ul>
         </div>
-        <!-- Container wrapper -->
-      </nav>
+      </div>
+    </nav>
       <!-- Navbar -->
 
       <div class="jumbotron" style="background-image: url('images/hero2.jfif'); height: 100vh; background-size: cover; background-position: center;">
@@ -83,7 +57,7 @@
       </div>
 
       <!-- About 1 - Bootstrap Brain Component -->
-<section class="py-3 py-md-5">
+<section class="py-3 py-md-5" id='about'>
     <div class="container">
       <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
         <div class="col-12 col-lg-6 col-xl-5">
@@ -137,7 +111,7 @@
     </div>
   </section>
 
-  <section id="price-section">
+  <section id="price-section" >
     <div class="container">
         <div class="row justify-content-center gapsectionsecond">
             <div class="col-lg-7 text-center">
@@ -167,7 +141,7 @@
                             <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
                             <span class="float-right">Style</span>
                         </div>
-                        <a href="#" class="btn btn-secondary mt-5">Schedule</a>
+                        <a href="#" class="btn btn-primary mt-5">Schedule</a>
                     </div>
                 </div>
             </div>
@@ -188,7 +162,7 @@
                             <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
                             <span class="float-right">Style</span>
                         </div>
-                        <a href="#" class="btn btn-secondary mt-5">Schedule</a>
+                        <a href="#" class="btn btn-primary mt-5">Schedule</a>
                     </div>
                 </div>
             </div>
@@ -209,7 +183,7 @@
                             <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
                             <span class="float-right">Style</span>
                         </div>
-                        <a href="#" class="btn btn-secondary mt-5">Schedule</a>
+                        <a href="#" class="btn btn-primary mt-5">Schedule</a>
                     </div>
                 </div>
             </div>
@@ -217,7 +191,7 @@
     </div>
 </section>
 
-      <div class="container contact-form">
+      <div class="container contact-form" id="contact">
         <div class="contact-image">
             <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
         </div>
@@ -256,10 +230,12 @@
   
       <ul class="nav col-md-4 justify-content-end">
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#price-section">Products</a>
+        </li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+      
       </ul>
     </footer>
   </div>

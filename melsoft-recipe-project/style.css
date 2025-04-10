@@ -30,7 +30,7 @@ ol li span{
 
 .container{
     background-color: hsl(330, 100%, 98%);
-    width: 40%;
+    width: 400px;
     padding: 15px;
     border-radius: 10px;
 }
@@ -108,6 +108,6 @@ li{
 
 @media (max-width: 576px) {
     .container{
-        width: 80%;
+        width: 90%;
     }
 }

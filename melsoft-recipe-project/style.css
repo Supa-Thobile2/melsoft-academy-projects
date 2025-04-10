@@ -104,3 +104,10 @@ li{
     margin: 10px;
     border: 1px solid black;
 }
+
+
+@media (max-width: 576px) {
+    .container{
+        width: 80%;
+    }
+}

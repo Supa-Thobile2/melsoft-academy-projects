@@ -25,14 +25,17 @@ main{
     height: 100vh;
 }
 
-.start{
+/* .start{
     display: none;
-    background-color: transparent !important;
-}
+    background-image: url(b1.png) !important;
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
-/* .game{
+.game{
     display: none;
-}  */
+} 
 
 .text-body-emphasis{
  

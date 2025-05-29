@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: "Agu Display", serif;
 }
@@ -7,15 +13,10 @@ body{
     position: sticky;
     top: 0;
     inset: 0;
+    z-index: 2;
 }
 
-.container h1{
-    margin: 1rem;
-}
 
-.container p{
-    margin: 1rem;
-}
 
 .btn-primary{
     font-family: "Agu Display", serif;
@@ -24,6 +25,7 @@ body{
     text-transform: uppercase;
 }
 
-.form-control{
-    margin: 1rem 0;
+
+.jumbotron{
+    backdrop-filter: blur(10px);
 }
